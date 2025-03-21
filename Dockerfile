@@ -17,7 +17,7 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 
 
 # Download and extract the Linux kernel source
-RUN curl -L https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.tar.xz | tar -xJ
+# RUN curl -L https://cdn.kernel.org/pub/linux/kernel/v4.x/linux-4.14.tar.xz | tar -xJ
 
 
 # Run bash when the container launches
