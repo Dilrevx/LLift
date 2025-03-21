@@ -17,7 +17,7 @@ services:
     container_name: llift_ae_container
     environment:
       - OPENAI_API_KEY=${PRIVATE_OPENAI_API_KEY}
-      - OPENAI_BASE_URL=https://api.bianie.ai/v1
+      - OPENAI_API_BASE=https://api.bianxie.ai/v1
     depends_on:
       - db
     command: tail -f /dev/null
